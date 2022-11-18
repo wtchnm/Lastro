@@ -10,7 +10,6 @@ module.exports = {
 			}
 		}
 	},
-	experimental: {
-		optimizeUniversalDefaults: true
-	}
+	experimental: 'all',
+	future: 'all'
 }
