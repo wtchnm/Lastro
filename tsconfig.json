@@ -1,8 +1,6 @@
 {
 	"extends": "astro/tsconfigs/strictest",
 	"compilerOptions": {
-		"skipLibCheck": true,
 		"incremental": true
-	},
-	"include": ["astro.config.ts"]
+	}
 }

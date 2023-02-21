@@ -9,7 +9,5 @@ module.exports = {
 				sans: ['Inter var', ...defaultTheme.fontFamily.sans]
 			}
 		}
-	},
-	experimental: 'all',
-	future: 'all'
+	}
 }
