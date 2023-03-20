@@ -1,6 +1,8 @@
 {
 	"extends": "astro/tsconfigs/strictest",
 	"compilerOptions": {
-		"incremental": true
+		"incremental": true,
+		"verbatimModuleSyntax": true,
+		"ignoreDeprecations": "5.0"
 	}
 }

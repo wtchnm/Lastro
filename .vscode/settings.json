@@ -6,5 +6,6 @@
 	"editor.formatOnSave": true,
 
 	"prettier.documentSelectors": ["**/*.astro"],
-	"eslint.validate": ["astro"]
+	"eslint.validate": ["astro"],
+	"typescript.tsdk": "node_modules/typescript/lib"
 }
