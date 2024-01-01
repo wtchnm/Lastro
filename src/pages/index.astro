@@ -3,9 +3,16 @@
 	<head>
 		<meta charset='UTF-8' />
 		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-		<meta name='viewport' content='width=device-width' />
+		<meta name='viewport' content='width=device-width, initial-scale=1' />
 		<meta name='generator' content={Astro.generator} />
 		<title>Lastro</title>
+		<link
+			rel='preload'
+			href='/Inter.woff2'
+			as='font'
+			type='font/woff2'
+			crossorigin
+		/>
 		<style is:inline>
 			@font-face {
 				font-family: 'Inter var';
@@ -17,7 +24,7 @@
 			}
 		</style>
 	</head>
-	<body class='antialiased'>
+	<body>
 		<h1 class='px-4 text-gray-500'>Hello!</h1>
 	</body>
 </html>
