@@ -13,12 +13,12 @@
 		"format": "prettier --write --cache ."
 	},
 	"devDependencies": {
-		"@astrojs/check": "0.9.3",
+		"@astrojs/check": "0.9.4",
 		"@astrojs/tailwind": "5.1.0",
 		"@tailwindcss/typography": "0.5.14",
 		"@typescript-eslint/eslint-plugin": "8.2.0",
 		"@typescript-eslint/parser": "8.2.0",
-		"astro": "4.14.5",
+		"astro": "4.16.18",
 		"eslint": "8.57.0",
 		"eslint-config-prettier": "9.1.0",
 		"eslint-plugin-astro": "1.2.3",
@@ -33,5 +33,10 @@
 	"engines": {
 		"node": ">=20.10.0"
 	},
-	"packageManager": "pnpm@8.10.0"
+	"packageManager": "pnpm@8.10.0",
+	"pnpm": {
+		"overrides": {
+			"esbuild@<=0.24.2": ">=0.25.0"
+		}
+	}
 }
