@@ -1,8 +1,8 @@
 import { defineMiddleware } from 'astro:middleware'
 import type { Element, Root } from 'hast'
+import { isCssLink } from 'hast-util-is-css-link'
 import { rehype } from 'rehype'
 import { visit } from 'unist-util-visit'
-import { isCssLink } from 'hast-util-is-css-link'
 
 const rehypeInstance = rehype().use(() => (tree: Root) => {
 	let head: Element | undefined
@@ -13,7 +13,11 @@ const rehypeInstance = rehype().use(() => (tree: Root) => {
 			links.push({
 				type: 'element',
 				tagName: 'link',
-				properties: { rel: 'preload', as: 'style', href: node.properties.href },
+				properties: {
+					rel: 'preload',
+					as: 'style',
+					href: node.properties['href']
+				},
 				children: []
 			})
 	})
