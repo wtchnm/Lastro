@@ -1,10 +1,5 @@
 {
 	"tab_size": 2,
 	"hard_tabs": true,
-	"lsp": {
-		"vtsls": {
-			"autoUseWorkspaceTsdk": true,
-			"typescript": { "tsdk": "node_modules/typescript/lib" }
-		}
-	}
+	"lsp": { "vtsls": { "settings": { "autoUseWorkspaceTsdk": true } } }
 }
