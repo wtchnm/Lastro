@@ -5,7 +5,7 @@ Opinionated Astro starter template.
 Uses **Astro V5**, **Tailwind CSS V4** and **TypeScript**. Comes pre configured with:
 
 - A **Prettier** plugin that automatically sorts classes.
-- Self hosted **Inter** font.
+- Self hosted **Inter** font with fallback.
 - A middleware for preloading render blocking CSS.
 - A base layout.
 
