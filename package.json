@@ -13,18 +13,18 @@
 		"format": "prettier --write --cache ."
 	},
 	"devDependencies": {
-		"@astrojs/check": "0.9.7",
-		"@tailwindcss/vite": "4.2.1",
+		"@astrojs/check": "0.9.8",
+		"@tailwindcss/vite": "4.2.2",
 		"@types/hast": "3.0.4",
-		"astro": "6.0.4",
+		"astro": "6.1.1",
 		"hast-util-is-css-link": "3.0.1",
 		"prettier": "3.8.1",
 		"prettier-plugin-astro": "0.14.1",
 		"prettier-plugin-tailwindcss": "0.7.2",
 		"rehype": "13.0.2",
 		"sharp": "0.34.5",
-		"tailwindcss": "4.2.1",
-		"typescript": "5.9.3",
+		"tailwindcss": "4.2.2",
+		"typescript": "6.0.2",
 		"unist-util-visit": "5.1.0"
 	},
 	"engines": {
@@ -36,9 +36,9 @@
 			"@tailwindcss/oxide",
 			"esbuild",
 			"sharp"
-		],
-		"overrides": {
-			"lodash@>=4.0.0 <=4.17.22": ">=4.17.23"
-		}
+		]
+	},
+	"overrides": {
+		"lodash@>=4.0.0 <=4.17.22": ">=4.17.23"
 	}
 }
